@@ -226,6 +226,33 @@ hr {
     font-size: 130%;
 }
 
+#inf_imagen2 div div {
+    /* background-color: rgb(30, 255, 0); */
+    /* display: flex; */
+    align-items: center;
+    /* margin: 55px 55px; */
+}
+
+#inf_imagen2div div img {
+    margin: 0px 400px;
+    /* 75% da imagen */
+    width: 480px;
+    height: 360px;
+}
+
+#inf_imagen2 div div h2 {
+    margin: 20px 100px;
+    font-family: 'ClasicRobo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+#inf_imagen2 div div p {
+    margin: 20px 100px;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 130%;
+}
+
 #voltar_ao_inicio {
     display: flex;
     text-decoration: none;
