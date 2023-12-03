@@ -34,6 +34,11 @@
     src: url(fontes/Classic\ Robot\ Bold.otf);
 }
 
+@font-face {
+    font-family: 'Robomonster';
+    src: url(fontes/Robot\ Monster.otf);
+}
+
 
 header {
     background-color: white;
@@ -44,55 +49,20 @@ header {
 }
 
 header>img {
-    width: 12%;
-    height: 12%;
+    width: 8%;
+    height: 8%;
     margin: 0rem;
 
 }
 
 header>h1 {
-    margin-left: 4rem;
+    margin-left: 5rem;
     font-family: 'Alien', Arial, Helvetica, sans-serif;
     font-size: 3rem;
+    box-shadow: 10px 10px rgb(50, 73, 205);
 
 }
 
-/* #t1 {
-    margin-left: 4rem;
-    font-family: 'Alien', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-}
-#t2 {
-    margin-left: 4rem;
-    font-family: 'Robclone', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-}
-#t3 {
-    margin-left: 4rem;
-    font-family: 'Robosapien', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-}
-#t4 {
-    margin-left: 4rem;
-    font-family: 'Robotaur', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-}
-#t5 {
-    margin-left: 4rem;
-    font-family: 'RCCRobo', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-}
-#t6 {
-    margin-left: 4rem;
-    font-family: 'ClasicRobo', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-
-} */
 
 .item-opcoes {
     padding: 0;
@@ -102,7 +72,7 @@ header>h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 10rem;
+    margin-left: 22rem;
 }
 
 .item-opcoes>a {
@@ -110,14 +80,14 @@ header>h1 {
     color: black;
     text-decoration: none;
     margin-right: 2rem;
-    font-family: 'Alien', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'ClasicRobo', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #item2-opcoes {
     font-size: 1em;
     text-decoration: none;
     margin-left: 2rem;
-    font-family: 'Alien', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'ClasicRobo', Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -130,104 +100,252 @@ header>h1 {
 
 
 #opcoes>li>a>img {
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
     background-color: transparent;
 }
 
 /* carrousel section */
 .titulo {
     text-align: center;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    font-family: 'Alien';
+    font-size: 3rem;
+    padding-top: 0rem;
+    font-family: 'ClasicRobo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.61);
+    /* box-shadow: 0px 1px red; */
 }
 
 .caixa-carrousel {
     width: 640px;
-    height: 480px;
+    height: 400px;
     margin: 50px auto 0;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .caixa-carrousel ul {
     display: flex;
     padding: 0;
     width: 100%;
-    animation: slide 20s infinite alternate ease-in-out;
+    animation: slide 60s infinite alternate ease-in-out;
 }
 
 .caixa-carrousel li {
     width: 100%;
     list-style: none;
-    position: relative;
+    /* position: relative; */
 }
 
 .texto {
     position: absolute;
-    text-align: center;
-    padding: 0 250px;
-    top: 250px;
+    top: 300px;
     color: white;
+    font-family: 'Robosapien', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
 }
 
 .texto h2 {
-    font-size: 45px;
-    margin-bottom: 35px;
+    font-family: 'Robosapien', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-style: oblique;
+    margin-left: 10%;
+    margin-right: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
 }
 
+
 .caixa-carrousel img {
-    width: 80rem;
+    width: auto;
     height: auto;
 }
 
+hr {
+    margin: 20px 100px;
+    width: 80%;
+    color;
+    /* border-color: red; */
+    height: 1px;
+    box-shadow: 0px 1px red;
+
+}
+
+#inf_imagen1 div div {
+    /* background-color: rgb(30, 255, 0); */
+    /* display: flex; */
+    align-items: center;
+    /* margin: 55px 55px; */
+}
+
+#inf_imagen1 div div img {
+    margin: 0px 400px;
+    /* 75% da imagen */
+    width: 480px;
+    height: 360px;
+}
+
+#inf_imagen1 div div h2 {
+    margin: 20px 100px;
+    font-family: 'ClasicRobo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+#inf_imagen1 div div p {
+    margin: 20px 100px;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 130%;
+}
+
+#inf_imagen3 div div {
+    /* background-color: rgb(30, 255, 0); */
+    /* display: flex; */
+    align-items: center;
+    /* margin: 55px 55px; */
+}
+
+#inf_imagen3 div div img {
+    margin: 0px 400px;
+    /* 75% da imagen */
+    width: 480px;
+    height: 360px;
+}
+
+#inf_imagen3 div div h2 {
+    margin: 20px 100px;
+    font-family: 'ClasicRobo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+#inf_imagen3 div div p {
+    margin: 20px 100px;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 130%;
+}
+
+#voltar_ao_inicio {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+#voltar_ao_inicio img {
+    width: 2.5%;
+    height: 1.25%;
+    margin-left: 30rem;
+
+}
+
+#voltar_ao_inicio p {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'ClasicRobo', Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.sub-titulos {
+    color: rgb(5, 5, 104);
+}
+
+/* slides */
 @keyframes slide {
     0% {
         margin-left: 0;
     }
 
-    10% {
+    5% {
         margin-left: 0;
     }
 
-    15% {
+    17% {
         margin-left: -100%;
     }
 
-    25% {
+    22% {
         margin-left: -100%;
     }
 
-    30% {
+    24% {
         margin-left: -200%;
     }
 
-    40% {
+    29% {
         margin-left: -200%;
+    }
+
+    31% {
+        margin-left: -300%;
+    }
+
+    36% {
+        margin-left: -300%;
+    }
+
+    38% {
+        margin-left: -400%;
+    }
+
+    43% {
+        margin-left: -400%;
     }
 
     45% {
-        margin-left: -300%;
-    }
-
-    55% {
-        margin-left: -300%;
-    }
-
-    60% {
-        margin-left: -400%;
-    }
-
-    70% {
-        margin-left: -400%;
-    }
-
-    75% {
         margin-left: -500%;
+    }
+
+    50% {
+        margin-left: -500%;
+    }
+
+    52% {
+        margin-left: -600%;
+    }
+
+    57% {
+        margin-left: -600%;
+    }
+
+    59% {
+        margin-left: -700%;
+    }
+
+    64% {
+        margin-left: -700%;
+    }
+
+    66% {
+        margin-left: -800%;
+    }
+
+    71% {
+        margin-left: -800%;
+    }
+
+    73% {
+        margin-left: -900%;
+    }
+
+    78% {
+        margin-left: -900%;
+    }
+
+    83% {
+        margin-left: -1000%;
+    }
+
+    85% {
+        margin-left: -1000%
+    }
+
+    87% {
+        margin-left: 0;
     }
 
     100% {
-        margin-left: -500%;
+        margin-left: 0;
     }
 
 }
