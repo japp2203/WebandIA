@@ -44,7 +44,7 @@ header {
     background-color: white;
     display: flex;
     align-items: center;
-
+    
 
 }
 
@@ -116,25 +116,32 @@ header>h1 {
     /* box-shadow: 0px 1px red; */
 }
 
-xxxxxxx#caixa-carrousel {
-   
-    height: 55vh;
+#caixa-carrousel {
+    height: 75vh;
     /* width: 2800px; */
     /* height: 55hv; */
     /* Recolhe e coloco todo em um só lugar */
     overflow:hidden;
 }
 
-xxxxxx.space_img {
-   
+.space_img {
     height: 100%;
     position: relative;
 }
 
 .contenedor_img_tit {
-    display: none;
     /* background-color: rgb(93, 175, 175); */
     height: 100%;
+}
+
+.contenedor_img_tit a img {
+    width: 640px;
+    height: 500px;
+    /* border-radius: 13%; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 400px;
 }
 
 
@@ -162,12 +169,13 @@ xxxxxx.space_img {
     /* o seguinte procedimento serve para superpôr os elementos --como .itemCarrusel es el padre mas proximo y tiene un position relative */
     position: absolute;
     top: 0;
-    height: 100%;
-    width: 100%;
+    height: 10%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    color: red;
 }
 
 hr {
@@ -182,20 +190,21 @@ hr {
 
 .inf_imagen {
     
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 
 #inf_imagen_1 div {
+    
     /* display: none; */
-    background-color: rgb(30, 255, 0);
+    /* background-color: rgb(30, 255, 0); */
     /* display: flex; */
     align-items: center;
     /* margin: 55px 55px; */
-    position: absolute;
+    /* position: absolute; */
 }
 
-#inf_imagen1 div div img {
+#inf_imagen_1 div img {
     margin: 0px 400px;
     /* 75% da imagen */
     width: 480px;
@@ -203,18 +212,19 @@ hr {
     border-radius: 13%;
 }
 
-#inf_imagen1 div div h2 {
+#inf_imagen_1 div h2 {
     margin: 20px 100px;
     font-family: 'ClasicRobo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 200%;
 }
 
-#inf_imagen1 div div p {
+#inf_imagen_1 div p {
     margin: 20px 100px;
     font-family: monospace;
     text-align: justify;
     font-size: 130%;
 }
+/* ----------------------------------------- */
 
 #inf_imagen3 div div {
     background-color: rgb(255, 0, 255);
@@ -274,7 +284,7 @@ hr {
     display: flex;
     text-decoration: none;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
 }
 
 #voltar_ao_inicio img {
